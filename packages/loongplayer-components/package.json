@@ -1,0 +1,15 @@
+{
+  "name": "loongplayer-components",
+  "version": "1.0.0",
+  "description": "loong播放器的通用组件库",
+  "main": "./src/index.ts",
+  "module": "./src/index.ts",
+  "keywords": [
+    "video",
+    "components",
+    "solid-js",
+    "css in js"
+  ],
+  "author": "Loong",
+  "license": "ISC"
+}

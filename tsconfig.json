@@ -1,0 +1,38 @@
+{
+  // "include": [
+  //   "./packages/**/*.ts"
+  // ],
+  // "exclude": [
+  //   "./packages/**/dist/*",
+  //   "./packages/**/lib/*",
+  //   "node_modules",
+  // ],
+  "compilerOptions": {
+    "strict": false,
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": [
+      "ES2017",
+      "DOM.Iterable",
+      "DOM"
+    ],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": [
+      "vite/client"
+    ],
+    "noEmit": true,
+    "isolatedModules": true,
+    "allowJs": true,
+    "checkJs": true,
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "declaration": false
+  },
+}

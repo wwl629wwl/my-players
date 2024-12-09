@@ -1,0 +1,25 @@
+{
+  "name": "loongplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rspack serve --config ./config/rspack.dev.config.cjs",
+    "build": "rspack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "be-full": "^0.1.4",
+    "eventemitter3": "^5.0.1",
+    "mobx": "^6.13.5",
+    "mp4box": "^0.5.3",
+    "uuid": "^11.0.3",
+    "loongplayer-components": "../loongplayer-components"
+  },
+  "files": [
+    "package.json",
+    "./dist/*"
+  ]
+}
